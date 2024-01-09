@@ -86,7 +86,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding: 126px; */
 }
 
 .party-column-item-title {
@@ -118,5 +117,211 @@ body {
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
-    padding: 10px;
+    padding: 16px 32px;
+}
+
+/* Schedule section styles */
+.schedule {
+    margin-top: 120px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding: 100px 385px 100px 385px;
+    border-radius: 16px;
+}
+
+.schedule-container span {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.schedule p {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.schedule .btn-primary {
+    display: block;
+    margin-top: 48px;
+}
+
+/* Coming soon section styles */
+.coming-soon {
+    margin-top: 120px;
+    background: #FFF;
+}
+
+.coming-soon-container {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.coming-soon-container-image {
+    height: 360px;
+    width: 360px;
+    border-radius: 50%;
+    border: 15px solid #F00;
+    background-repeat: no-repeat;
+
+}
+
+.coming-soon-container-image-1 {
+    background-repeat: no-repeat;
+}
+
+
+.coming-soon-container-title-1 {
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0px 100px 20px 0px;
+}
+
+.coming-soon-container-title-2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 0px 0px 20px 0px;
+}
+
+.coming-soon-container-description-1 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 0px 0px 20px 0px;
+    width: 393px;
+}
+
+.coming-soon-container-title-3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding: 0px 0px 20px 0px;
+}
+
+.coming-soon-container-description-2 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 0px 0px 40px 0px;
+    width: 393px;
+}
+
+/* Gift section styles */
+.gift-section {
+    margin-top: 120px;
+}
+
+.gift-item-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0px 0px 20px 0px;
+}
+
+.gift-item-title-1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 0px 0px 20px 0px;
+}
+
+.gift-item .gift-item-description {
+    width: 896px;
+    margin-left: 0;
+    text-align: justify;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 0px 0px 40px 0px;
+}
+
+.gift-item-image img {
+    width: 420px;
+    height: 450px;
+    margin: 10px 15px 0 0;
+}
+
+/* Subscribe section  */
+.subscribe {
+    margin-top: 120px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+
+}
+
+.subscribe-container-item {
+    text-align: center;
+
+}
+
+.subscribe-container-item-image {
+    height: 150px;
+    width: 150px;
+    padding: 80px 585px 40px 585px;
+}
+
+.subscribe-container-item-title {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 0px 0px 40px 0px;
+}
+
+.subscribe-container-item-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    padding: 0px 0px 40px 0px;
+}
+
+.subscribe-container-item-btn input {
+    border: none;
+   
+}
+
+.subscribe-container-item-btn input[type="email"] {
+    width: 30%;
+    border-radius: 50px 0 0 50px;
+    padding: 20px;
+}
+
+.subscribe-container-item-btn input[type="submit"] {
+    width: 15%;
+    color: #FFF;
+    background: #F00;
+    border: 2px solid #F00;
+    border-radius: 0 50px 50px 0;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 13px;
 }
