@@ -120,6 +120,12 @@ body {
     padding: 16px 32px;
 }
 
+.btn-primary:hover {
+    transform: scale(1.2);
+    transition: 1s;
+    background: purple;
+}
+
 /* Schedule section styles */
 .schedule {
     margin-top: 120px;
@@ -261,6 +267,12 @@ body {
     width: 420px;
     height: 450px;
     margin: 10px 15px 0 0;
+    /* transform: translate(0); */
+}
+
+.gift-item-image img:hover {
+    transform: scale(1.2);
+    transition: 1s;
 }
 
 /* Subscribe section  */
@@ -268,6 +280,7 @@ body {
     margin-top: 120px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
+    padding-bottom: 100px;
 
 }
 
@@ -304,7 +317,6 @@ body {
 
 .subscribe-container-item-btn input {
     border: none;
-   
 }
 
 .subscribe-container-item-btn input[type="email"] {
@@ -324,4 +336,97 @@ body {
     font-size: 20px;
     font-weight: 600;
     padding: 13px;
+}
+.subscribe-container-item-btn input[type="submit"]:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+/* Footer styles */
+.footer {
+    margin-top: 120px;
+    background: #070211;
+    height: 530px;
+    /* border-radius: 16px; */
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50%;
+
+}
+
+.footer-column {
+    padding-top: 100px;
+   
+
+}
+
+.footer-description-1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: left;
+    padding-left: 35px;
+}
+
+
+.footer-description-2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: left;
+    padding-right: 35px;
+
+}
+
+hr {
+    background: rgba(255, 255, 255, 0.15);
+    margin: 40px 0;
+}
+
+/* Social media styles */
+.social {
+    text-align: center;
+}
+
+.social a img {
+    margin: 0 15px;
+}
+
+.social a img:hover {
+    transform: scale(1.2);
+    transition: .4s;
+}
+
+
+.footer-copyright-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50%;
+
+}
+
+.footer-description-3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+
+.footer-description-4 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
 }
